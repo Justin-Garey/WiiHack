@@ -44,22 +44,23 @@ A comprehensive guide on hacking the Wii and what you can do once it is hacked
 - (For official guide: https://wii.guide/cios)
 - Wii Must be connected to the internet
 - Under CIOS SETTINGS
-- - Select cIOS <"v10 beta52 d2x-v10-beta52">
-- - Select cIOS base <57>
-- - Select cIOS slot <249>
-- - Select cIOS revision <65535>
+  - Select cIOS <"v10 beta52 d2x-v10-beta52">
+  - Select cIOS base <57>
+  - Select cIOS slot <249>
+  - Select cIOS revision <65535>
 - Press A twice
 - After it has successfully installed, press A to go back to CIOS SETTINGS
 - Under CIOS SETTINGS
-- - Select cIOS <"v10 beta52 d2x-v10-beta52">
-- - Select cIOS base <56>
-- - Select cIOS slot <250>
-- - Select cIOS revision <65535>
+  - Select cIOS <"v10 beta52 d2x-v10-beta52">
+  - Select cIOS base <56>
+  - Select cIOS slot <250>
+  - Select cIOS revision <65535>
 - B to exit
 - Restart the Wii
 
 ## For Wii Menu Shortcuts
 - Install YAWMM - Yet Another Wad Manager
+- (Video Description: https://youtu.be/EAdCh0Xa45s)
 - See below on how to create a WAD
 - Open and use IOS 249
 - Select NAND emulator device < disable >
