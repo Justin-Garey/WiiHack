@@ -38,6 +38,12 @@ A comprehensive guide on hacking the Wii and what you can do once it is hacked
 - To exit bootmii, press the back button. That is the button with an arrow then you can either go to the Wii menu or Homebrew Channel.
 
 ## Setting up the Homebrew Browser
+- Download from here (https://wiibrew.org/wiki/Homebrew_Browser) or find in the repository
+- Put the homebrew_browser folder from the download into a folder /apps located in the root of the sd card
+- Launch the homebrew browser from the homebrew channel
+
+## Recommended downloads from the Homebrew Browser
+- 
 
 ## Setting up d2x cIOS Installer
 - Install d2x cIOS Installer from the HomeBrew Browser
@@ -69,4 +75,42 @@ A comprehensive guide on hacking the Wii and what you can do once it is hacked
 - Select Action: < Install WAD >
 - Restart Wii and it should be available to use
 
-## Creating a WAD
+## Modifying a WAD
+- 
+
+## Downloading Wii Back Up Manager
+- (source: http://www.wiibackupmanager.co.uk/downloads.html and be careful of spam ads on the site)
+- Download the zip file from the site
+- First extract the WiiBackUpManger zip 
+- Enter the folder
+- Select either the Win64 or Win32 executable (Probably double click WiiBackUppManager_Win64)
+- You may have to select yes to allowing the application to run on your computer
+
+## Formatting the Hard Drive for Usage
+- Most hard drives do not come in the proper format for use with the Wii
+- To fix this, we have to format the drive into FAT32
+- The easiest ways to do this are either:
+  - Using the built in format option in a file explorer 
+  - (Might not work with some hard drives as their is no FAT32 option)
+  - Or Using Wii Back Up Manager
+- To Use Wii Back Up Manager:
+  - (Refer to Downloading Wii Back Up Manager)
+  - Once the application is open, click on tools
+  - Select Format Drive
+  - The first option is for the drive to format, make sure you select the one you will putting into the wii
+    - Warning: Anything on the drive will be wiped
+  - Select FAT32 as the formatting option
+  - Select 32kb cluster size (This should be default anyways)
+  - Then click start and wait for the process to finish
+
+## Put Wii games on the hard drive and fix Wii ROMS that are larger than 4GB 
+- Problem: Wii ROM (in wbfs format) is larger than 4GB which is not compatible with the FAT32 format of the hard drive being used for the wii
+- Solution: Use Wii Back Up Manager (Refer to Downloading Wii Back Up Manager)
+- How: 
+  - Once in the program click Add then click Files
+  - Add all the games you need to fix
+  - Check the check box to the left of the game names
+  - Select Drive 1 as the place to save to
+  - Click where the dropdown menu says inactive and select where the games should be saved to
+  - Select yes to creating a wbfs folder
+  - Go back to files, click transfer and select drive 1
