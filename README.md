@@ -1,5 +1,5 @@
 # WiiHack
-A comprehensive guide on hacking the Wii and what you can do once it is hacked
+### A comprehensive guide on hacking the Wii and what you can do once it is hacked
 
 ## Initial Hack Using SmashStack Method
 - (For official guide: https://wiibrew.org/wiki/Smash_Stack)
@@ -114,3 +114,36 @@ A comprehensive guide on hacking the Wii and what you can do once it is hacked
   - Click where the dropdown menu says inactive and select where the games should be saved to
   - Select yes to creating a wbfs folder
   - Go back to files, click transfer and select drive 1
+
+## Changing the game title of games Wii games in Wiiflow
+- Presumably you have all of your wii games in the wbfs folder and you have opened up Wiiflow and now some of the titles do not make sense
+- To fix this, enter Wii Backup Manager
+  - Select Options
+  - Select Settings
+  - Click the titles tab
+  - Check all of the check boxes except for the top (unless you know how to make that one work) 
+  - So select:
+    - Use custom-titles.txt
+    - Use GameTBD titles for file and folder names
+    - Auto rename drive transfers
+    - Auto rename WBFS file transfers
+    - Allow permanent changes to Wii disc header
+    - Allow changes to WBFS disc header
+  - Hit Ok
+  - Select Drive 1
+  - Under the drop down, select the drive with the files in it
+  - Double click the game title and set the name
+  - Press enter on the keyboard and the title should be updated
+
+## Adding a box-cover to a game manually
+- Wiiflow has the option to download all of the box-covers for your games but if you want to do it manually:
+  - First got to GameTDB.com
+  - Type the game id into the search bar or search it by name
+  - When on the games page, there will be a wide picture of the box cover
+  - Right click on it and hit save as, then save it in the boxcover folder in the wiiflow folder on your storage drive
+  - DO NOT change the name of the box cover, it is already in the proper format "gameid.png"
+
+## Reload the Wiiflow selection
+- When games are added or box-covers changed, wiiflow may not immediately update so you need to reload the cache
+- To do this, when on Wiiflow, hit the home button and there should be an option called reload cache
+- Just click that and you should be good to go 
